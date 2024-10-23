@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="624.0" prefWidth="912.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="my.com.seru.view.ScoreController">
+   <children>
+      <TableView fx:id="HighScoreTable" layoutX="131.0" layoutY="136.0" prefHeight="426.0" prefWidth="650.0">
+        <columns>
+          <TableColumn fx:id="UsernameColumn" prefWidth="250.0" text="Username" />
+          <TableColumn fx:id="ScoreColumn" minWidth="6.0" prefWidth="399.0" text="Score" />
+        </columns>
+      </TableView>
+      <Text fx:id="scoreText" layoutX="338.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pokemon Trainer HighScore" wrappingWidth="236.7080078125" />
+   </children>
+</AnchorPane>

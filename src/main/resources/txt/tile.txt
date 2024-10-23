@@ -1,0 +1,3 @@
+0,Rowlet,Grass,300,Razor Leaf,30
+1,Blastoise,Water,500,Hydro Pump,120
+2,Groudon,Ground,600,Precipice Blades,120
